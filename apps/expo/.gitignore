@@ -1,5 +1,8 @@
 .expo
 
+#.env
+.env
+
 # OSX
 #
 .DS_Store

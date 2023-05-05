@@ -1,0 +1,24 @@
+{
+  "name": "@guessai/supabase",
+  "version": "0.0.1",
+  "sideEffects": [
+    "*.css"
+  ],
+  "private": true,
+  "types": "./types/index",
+  "main": "src/index.tsx",
+  "module:jsx": "src",
+  "files": [
+    "types",
+    "dist"
+  ],
+  "scripts": {
+    "gen:types": "npx supabase gen types typescript --project-id \"$SUPABASE_PROJECT_ID\" --schema public > types/supabase.ts"
+  },
+  "devDependencies": {
+    "supabase": "^1.52.2"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.21.0"
+  }
+}

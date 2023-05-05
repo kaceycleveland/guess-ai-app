@@ -3,6 +3,7 @@ module.exports = function (api) {
   return {
     presets: [['babel-preset-expo', { jsxRuntime: 'automatic' }]],
     plugins: [
+      ["module:react-native-dotenv"],
       require.resolve('expo-router/babel'),
       [
         require.resolve('babel-plugin-module-resolver'),

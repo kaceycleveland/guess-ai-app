@@ -8,6 +8,7 @@ import {
 import { useColorScheme } from 'react-native'
 
 import config from '../tamagui.config'
+import { supabaseClient } from '@guessai/supabase/client/client'
 
 export function Provider({ children, ...rest }: Omit<TamaguiProviderProps, 'config'>) {
   const scheme = useColorScheme()

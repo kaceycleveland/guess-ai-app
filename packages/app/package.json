@@ -8,6 +8,10 @@
   ],
   "dependencies": {
     "@my/ui": "*",
+    "@supabase/auth-helpers-nextjs": "^0.6.1",
+    "@supabase/auth-helpers-react": "^0.3.1",
+    "@supabase/auth-ui-react": "^0.3.6",
+    "@supabase/supabase-js": "^2.21.0",
     "@tamagui/animations-react-native": "^1.21.4",
     "@tamagui/colors": "^1.21.4",
     "@tamagui/font-inter": "^1.21.4",
@@ -16,6 +20,7 @@
     "@tamagui/themes": "^1.21.4",
     "expo-constants": "^14.2.1",
     "expo-linking": "^4.0.1",
+    "react-hook-form": "^7.43.9",
     "solito": "^3.0.0"
   },
   "devDependencies": {
